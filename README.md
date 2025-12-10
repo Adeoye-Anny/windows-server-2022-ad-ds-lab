@@ -18,11 +18,45 @@
   1. In the left pane, I right-clicked my domain name lab.local.
   2. I selected New → Organizational Unit.
     <img width="1918" height="1039" alt="image" src="https://github.com/user-attachments/assets/4ed5472f-30ac-4a3c-88cf-568fd9ec6613" />
-
-  3. I created the following OUs:
+    I created 3 OUs: USA, Europe, and Asia
+  
+  3. I created the following OUs under the above OUs:
+    * Computer
     * Users
-    * Groups
-    * Computers
-    * IT
-    * HR
-  4. I unchecked Protect container from accidental deletion where needed.
+    * Server
+    <img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/5dc7a002-0b0c-4b9c-8044-403d5d36f214" />
+
+  5. I unchecked Protect container from accidental deletion where needed.
+
+### 6. Creating Users & Groups
+
+  Now that the OUs were created, I populated the domain with sample users and role-based security groups.
+
+### 6.1 Creating Users
+
+  1. I opened the Users OU.
+  2. I right-clicked inside the OU and selected New → User.
+  3. I created these sample accounts:
+    * John Doe
+    * Mary Smith
+    * IT_Admin
+  4. I set strong passwords and enabled User must change password at next logon for regular users.
+
+
+### 6.2 Creating Security Groups
+
+Security groups allow role-based access control.
+
+  1. I opened the Groups OU.
+  2. I right-clicked and selected New → Group.
+  3. I created:
+    * HR_Staff
+    * IT_Staff
+    * Admins
+  4. I ensured:
+    *  Group scope: Global
+    *  Group type: Security
+  5. I added users to each group as needed (ex. John Doe → HR_Staff).
+
+
+
