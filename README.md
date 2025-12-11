@@ -61,5 +61,53 @@ Security groups allow role-based access control.
     <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/5771e7e5-73de-45d2-a3c0-7d93d9d2df54" />
 
 
+### 7. Configuring Group Policy (GPO)
+I created and linked Group Policy Objects to control domain behavior. This shows I understand centralized management of users and computers.
+
+7.1 Opening Group Policy Management
+  1. On the domain controller, I opened:
+     Server Manager → Tools → Group Policy Management
+  2. The GPMC console displayed all OUs and the default domain policy.
+     <img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/2672ef7c-1cd2-438f-8e70-7d5ecf7e433d" />
+
+
+7.2 Creating a New GPO
+Example GPO: Paasword Policy
+  1. In GPMC, I right-clicked the Users OU.
+  2. I selected Create a GPO in this domain, and Link it here.
+  3. I named it:
+     Password Policy
+  4. I right-clicked the new GPO and selected Edit.
+     <img width="1920" height="1035" alt="image" src="https://github.com/user-attachments/assets/cdcbd7f3-d364-4935-a06e-108dcb2360c4" />
+
+
+7.3 Configuring the GPO Settings
+Inside the GPO editor:
+  1. I navigated to:
+     Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
+  2. I adjusted the Maximum Password length to (12 character), the minimum and maximum password age (30 days - 90 days). 
+  3. Password Policy GPO successfully created and editted.
+    <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/9fddf39e-0c25-4109-9648-10dfffb38da6" />
+
+  
+
+8.4 Forcing Policy Update on the Client PC
+On the Windows 10 machine:
+
+I opened Command Prompt.
+
+I ran:
+
+bash
+Copy code
+gpupdate /force
+After refreshing policies, I confirmed the Control Panel was disabled.
+
+Screenshot to upload
+screenshot-65.png gpupdate /force output
+
+screenshot-66.png Control Panel blocked message on Windows 10
+
+
 
 
