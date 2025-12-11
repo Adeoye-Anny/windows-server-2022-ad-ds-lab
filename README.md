@@ -37,10 +37,11 @@
   1. I opened the Users OU.
   2. I right-clicked inside the OU and selected New → User.
   3. I created these sample accounts:
-    * John Doe
+    * Samson Anny
     * Mary Smith
     * IT_Admin
   4. I set strong passwords and enabled User must change password at next logon for regular users.
+    <img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/199bae39-394a-4e50-b502-88795121cd66" />
 
 
 ### 6.2 Creating Security Groups
@@ -56,7 +57,9 @@ Security groups allow role-based access control.
   4. I ensured:
     *  Group scope: Global
     *  Group type: Security
-  5. I added users to each group as needed (ex. John Doe → HR_Staff).
+  5. I added users to each group as needed (ex. Samson Anny → HR_Staff).
+    <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/5771e7e5-73de-45d2-a3c0-7d93d9d2df54" />
+
 
 
 
