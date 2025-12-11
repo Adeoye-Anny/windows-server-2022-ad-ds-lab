@@ -89,24 +89,29 @@ Inside the GPO editor:
   3. Password Policy GPO successfully created and editted.
     <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/9fddf39e-0c25-4109-9648-10dfffb38da6" />
 
-  
+  4. After completing the first policy, I proceeded to create more additional Group Policy Objects  and configured them to demonstrate centralized management of user            settings and resources within the domain.
+      * Drive Mapping
+        <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/5a1b311c-6ead-4876-a991-6f44046b00d9" />
 
-#### 8.4 Forcing Policy Update on the Client PC
-On the Windows 10 machine:
+      * Desktop Wallpaper
+        <img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/2bf77b2c-340a-4001-ab1a-071c65095957" />
 
-I opened Command Prompt.
+      * Restrict Access to Control Panel
+        <img width="1920" height="1037" alt="image" src="https://github.com/user-attachments/assets/ec941782-00a8-4da2-afd4-901e2e314942" />
+      
+      * USB Storage
+        <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/37653bc1-1dde-4e8f-87fc-f80d04ab846d" />
+      
+      * Account Lockout Policy
+        To strengthen domain security, I configured the Account Lockout Policy in the Default Domain Policy.
+        I set the following values:
+          * Account lockout threshold: 3 failed attempts
+          * Account lockout duration: 30 minutes
+          * Reset lockout counter after: 30 minutes
+        This ensures user accounts are protected from repeated unauthorized login attempts.
 
-I ran:
+        <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/6e12c7e9-1a9f-40ef-819a-f274c1bc6c4f" />
 
-bash
-Copy code
-gpupdate /force
-After refreshing policies, I confirmed the Control Panel was disabled.
-
-Screenshot to upload
-screenshot-65.png gpupdate /force output
-
-screenshot-66.png Control Panel blocked message on Windows 10
 
 
 
