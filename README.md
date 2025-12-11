@@ -113,8 +113,10 @@ Inside the GPO editor:
         <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/6e12c7e9-1a9f-40ef-819a-f274c1bc6c4f" />
 
 
-### Windows Server 2022 Active Directory Domain Services Lab – Summary
+#### Summary
 
-In this lab, I built a full Windows Server 2022 environment on VMware Workstation Pro and configured it as a domain controller. I created a structured OU hierarchy, added users and security groups, joined a Windows 10 client to the domain, and implemented key Group Policies including drive mapping, desktop wallpaper, Control Panel restrictions, and account lockout settings. This project demonstrates my ability to deploy, manage, and secure an Active Directory environment from scratch.
+In this lab, I built a full Windows Server 2022 environment on VMware Workstation Pro and configured it as a domain controller. 
+I created a structured OU hierarchy, added users and security groups, joined a Windows 10 client to the domain, and implemented key Group Policies including drive mapping, desktop wallpaper, Control Panel restrictions, and account lockout settings. 
+This project demonstrates my ability to deploy, manage, and secure an Active Directory environment from scratch.
 
 
