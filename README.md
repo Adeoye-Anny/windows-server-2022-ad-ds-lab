@@ -6,14 +6,14 @@
 
   In this stage I began organizing my domain by creating OUs. This structure makes administration easier and keeps users, groups, and computers separated in a clean         hierarchy.
 
-### 5.1 Opening Active Directory Users and Computers (ADUC)
+#### 5.1 Opening Active Directory Users and Computers (ADUC)
 
   1. I clicked Start → Server Manager → Tools → Active Directory Users and Computers.
   2. ADUC opened and displayed my domain lab.local.
     <img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/fb34ec0d-0806-470b-a65a-1efa3e30a481" />
     
 
-### 5.2 Creating New OUs
+#### 5.2 Creating New OUs
 
   1. In the left pane, I right-clicked my domain name lab.local.
   2. I selected New → Organizational Unit.
@@ -32,7 +32,7 @@
 
   Now that the OUs were created, I populated the domain with sample users and role-based security groups.
 
-### 6.1 Creating Users
+#### 6.1 Creating Users
 
   1. I opened the Users OU.
   2. I right-clicked inside the OU and selected New → User.
@@ -44,7 +44,7 @@
     <img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/199bae39-394a-4e50-b502-88795121cd66" />
 
 
-### 6.2 Creating Security Groups
+#### 6.2 Creating Security Groups
 
 Security groups allow role-based access control.
 
@@ -64,14 +64,14 @@ Security groups allow role-based access control.
 ### 7. Configuring Group Policy (GPO)
 I created and linked Group Policy Objects to control domain behavior. This shows I understand centralized management of users and computers.
 
-7.1 Opening Group Policy Management
+#### 7.1 Opening Group Policy Management
   1. On the domain controller, I opened:
      Server Manager → Tools → Group Policy Management
   2. The GPMC console displayed all OUs and the default domain policy.
      <img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/2672ef7c-1cd2-438f-8e70-7d5ecf7e433d" />
 
 
-7.2 Creating a New GPO
+#### 7.2 Creating a New GPO
 Example GPO: Paasword Policy
   1. In GPMC, I right-clicked the Users OU.
   2. I selected Create a GPO in this domain, and Link it here.
@@ -81,7 +81,7 @@ Example GPO: Paasword Policy
      <img width="1920" height="1035" alt="image" src="https://github.com/user-attachments/assets/cdcbd7f3-d364-4935-a06e-108dcb2360c4" />
 
 
-7.3 Configuring the GPO Settings
+#### 7.3 Configuring the GPO Settings
 Inside the GPO editor:
   1. I navigated to:
      Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
@@ -91,7 +91,7 @@ Inside the GPO editor:
 
   
 
-8.4 Forcing Policy Update on the Client PC
+#### 8.4 Forcing Policy Update on the Client PC
 On the Windows 10 machine:
 
 I opened Command Prompt.
