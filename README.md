@@ -1,4 +1,4 @@
-# Windows Server 2022 Active Directory Domain Services Lab
+# Windows Server 2022 Active Directory Domain Services Lab - Organized OUs and applied Group Policies
 
   ![windows-server-active-directory-and-it-support](https://github.com/user-attachments/assets/945faa0a-a813-476a-a3e4-d17b9760e6a5)
 
