@@ -21,9 +21,9 @@
     I created 3 OUs: USA, Europe, and Asia
   
   3. I created the following OUs under the above OUs:
-    * Computer
-    * Users
-    * Server
+      * Computer
+      * Users
+      * Server
     <img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/5dc7a002-0b0c-4b9c-8044-403d5d36f214" />
 
   5. I unchecked Protect container from accidental deletion where needed.
@@ -37,9 +37,9 @@
   1. I opened the Users OU.
   2. I right-clicked inside the OU and selected New → User.
   3. I created these sample accounts:
-    * Samson Anny
-    * Mary Smith
-    * IT_Admin
+      * Samson Anny
+      * Mary Smith
+      * IT_Admin
   4. I set strong passwords and enabled User must change password at next logon for regular users.
     <img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/199bae39-394a-4e50-b502-88795121cd66" />
 
@@ -51,12 +51,12 @@ Security groups allow role-based access control.
   1. I opened the Groups OU.
   2. I right-clicked and selected New → Group.
   3. I created:
-    * HR_Staff
-    * IT_Staff
-    * Admins
+      * HR_Staff
+      * IT_Staff
+      * Admins
   4. I ensured:
-    *  Group scope: Global
-    *  Group type: Security
+      *  Group scope: Global
+      *  Group type: Security
   5. I added users to each group as needed (ex. Samson Anny → HR_Staff).
     <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/5771e7e5-73de-45d2-a3c0-7d93d9d2df54" />
 
